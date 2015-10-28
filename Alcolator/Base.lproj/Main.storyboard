@@ -43,8 +43,8 @@
                                     <action selector="sliderValueDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="x2I-0y-4sa"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqR-RB-lCO">
-                                <rect key="frame" x="31" y="149" width="538" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqR-RB-lCO">
+                                <rect key="frame" x="240" y="149" width="120" height="27"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                 <color key="textColor" red="1" green="0.50743969010000001" blue="0.19089707950000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -53,18 +53,34 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="MqR-RB-lCO" firstAttribute="width" secondItem="9Mm-44-wFo" secondAttribute="width" id="B1m-0M-PWL"/>
+                            <constraint firstItem="MqR-RB-lCO" firstAttribute="centerX" secondItem="9Mm-44-wFo" secondAttribute="centerX" id="BTk-If-Jqa"/>
                             <constraint firstItem="vld-bS-kX9" firstAttribute="top" secondItem="ufD-Kz-yOy" secondAttribute="bottom" constant="8" id="L5p-qJ-8dx"/>
+                            <constraint firstItem="MqR-RB-lCO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VdD-Rq-T8O"/>
                             <constraint firstItem="vld-bS-kX9" firstAttribute="centerX" secondItem="ufD-Kz-yOy" secondAttribute="centerX" id="X7f-Xo-Sgc"/>
+                            <constraint firstItem="MqR-RB-lCO" firstAttribute="width" secondItem="9Mm-44-wFo" secondAttribute="width" id="YRB-xW-4Rb"/>
                             <constraint firstItem="MqR-RB-lCO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="ZEe-Wm-rax"/>
+                            <constraint firstItem="MqR-RB-lCO" firstAttribute="centerX" secondItem="9Mm-44-wFo" secondAttribute="centerX" id="ZGB-bw-m7p"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MqR-RB-lCO" secondAttribute="trailing" constant="15" id="b56-96-G1w"/>
                             <constraint firstItem="vld-bS-kX9" firstAttribute="centerX" secondItem="9Mm-44-wFo" secondAttribute="centerX" id="lBX-d6-JEb"/>
                             <constraint firstItem="9Mm-44-wFo" firstAttribute="top" secondItem="vld-bS-kX9" secondAttribute="bottom" constant="8" id="lrO-aP-Cg0"/>
                             <constraint firstItem="MqR-RB-lCO" firstAttribute="top" secondItem="9Mm-44-wFo" secondAttribute="bottom" constant="8" id="nSx-zT-8gE"/>
+                            <constraint firstItem="MqR-RB-lCO" firstAttribute="width" secondItem="9Mm-44-wFo" secondAttribute="width" id="pJN-2P-mvh"/>
                             <constraint firstItem="ufD-Kz-yOy" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qEt-0U-zOe"/>
                             <constraint firstItem="ufD-Kz-yOy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sTD-bu-XCV"/>
                             <constraint firstItem="vld-bS-kX9" firstAttribute="width" secondItem="ufD-Kz-yOy" secondAttribute="width" id="vnB-yl-cuP"/>
                             <constraint firstItem="ufD-Kz-yOy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xQT-x0-fuI"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B1m-0M-PWL"/>
+                                <exclude reference="VdD-Rq-T8O"/>
+                                <exclude reference="ZEe-Wm-rax"/>
+                                <exclude reference="ZGB-bw-m7p"/>
+                                <exclude reference="b56-96-G1w"/>
+                                <exclude reference="pJN-2P-mvh"/>
+                            </mask>
+                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="Kcd-Xa-FJJ" appends="YES" id="JS0-w9-WeF"/>
                         </connections>
