@@ -71,7 +71,7 @@
                     </view>
                     <connections>
                         <outlet property="beerCountSlider" destination="vld-bS-kX9" id="jH5-ja-PA1"/>
-                        <outlet property="beerPercentTextField" destination="ufD-Kz-yOy" id="5Fp-2W-kya"/>
+                        <outlet property="beerPercentTextField" destination="ufD-Kz-yOy" id="SGE-OH-2ld"/>
                         <outlet property="resultLabel" destination="MqR-RB-lCO" id="vJY-I5-JS6"/>
                     </connections>
                 </viewController>
