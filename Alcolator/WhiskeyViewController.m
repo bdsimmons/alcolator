@@ -14,6 +14,14 @@
 
 @implementation WhiskeyViewController
 
+- (void)sliderValueDidChange:(UISlider *)sender {
+    NSLog(@"Slider value changed to %f", sender.value);
+    [self.beerPercentTextField resignFirstResponder];
+    int value = (int) sender.value;
+    NSString *noun = (value > 1) ? @"shots" : @"shot";
+    self.navigationItem.title = [NSString stringWithFormat:@"Whiskey (%d %@)", value, noun];
+}
+
 - (void)buttonPressed:(UIButton *)sender;
 {
     [self.beerPercentTextField resignFirstResponder];
